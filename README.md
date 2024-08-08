@@ -12,13 +12,13 @@ This repository is designed to accompany our JavaScript programming course. Whet
 Our course covers a wide range of JavaScript topics, including:
 
 1. Introduction to JavaScript
-2. Basic Syntax and Operations
-3. Control Structures
+2. Basic syntax and operations
+3. Control structures
 4. Functions and Scope
 5. Arrays and Objects
-6. Error Handling and Debugging
+6. Error handling and debugging
 7. Asynchronous JavaScript
-8. Introduction to DOM Manipulation
+8. Introduction to DOM manipulation
 9. JavaScript and Web APIs
 
 ## Homework Exercises
@@ -35,9 +35,9 @@ By the end of this course, you should have achieved the following learning outco
 - Skills in error handling and debugging JavaScript code.
 - Practical experience in creating dynamic web interfaces.
 
-## Capstone Project Integration
+## Capstone Project
 
-As part of your journey through this course, you will integrate your newfound knowledge into a Capstone Project. This project will allow you to apply your JavaScript skills to real-world scenarios and build a practical web application.
+During this course, you'll work on different projects each week that use the skills you learn. These projects will help you practice and apply what you've learned to real-world situations. At the end of the course, we'll review all your projects together as your Capstone Project.
 
 ## License
 
