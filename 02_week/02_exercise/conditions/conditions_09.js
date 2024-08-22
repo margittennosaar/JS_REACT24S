@@ -14,7 +14,8 @@ For any other word, return "Keep trying!".
 console.log(secretWordGame("JavaScript"));  // Outputs: "You found the secret word!"
 console.log(secretWordGame("Java"));        // Outputs: "You're close, but not quite!"
 console.log(secretWordGame("Cat"));         // Outputs: "Almost there!"
-console.log(secretWordGame("Elephant"));    // Outputs: "Good guess, but not the secret word!"
+console.log(secretWordGame("Estonia"));     // Outputs: "Good guess, but not the secret word!"
+console.log(secretWordGame("Elephant"));    // Outputs: "Almost there!"
 console.log(secretWordGame("Dog"));         // Outputs: "Keep trying!"
 
 
