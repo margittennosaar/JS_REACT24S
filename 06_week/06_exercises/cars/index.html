@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Cars</title>
+  </head>
+  <body>
+    <header>
+      <h1>Cars database</h1>
+      <form id="searchCar">
+        <h2>Search</h2>
+        <label for="search">License</label>
+        <input type="text" id="search" />
+        <button type="submit">submit</button>
+      </form>
+      <p id="searchResult">No car found</p>
+    </header>
+    <main>
+      <h2>Add car</h2>
+      <form id="addCar">
+        <div>
+          <label for="license">License</label>
+          <input type="text" id="license" />
+        </div>
+        <div>
+          <label for="maker">Maker</label>
+          <input type="text" id="maker" />
+        </div>
+        <div>
+          <label for="model">Model</label>
+          <input type="text" id="model" />
+        </div>
+        <div>
+          <label for="owner">Owner</label>
+          <input type="text" id="owner" />
+        </div>
+        <div>
+          <label for="price">Price</label>
+          <input type="number" id="price" />
+        </div>
+        <div>
+          <label for="color">Color</label>
+          <input type="color" id="color" />
+        </div>
+        <button type="submit">Submit 🥪</button>
+        <button type="reset">Reset the form</button>
+      </form>
+      <table id="carsTable">
+        <tr>
+          <th>License</th>
+          <th>Maker</th>
+          <th>Model</th>
+          <th>Owner</th>
+          <th>Price</th>
+          <th>Color</th>
+        </tr>
+      </table>
+    </main>
+    <footer>Copyright &copy REACT24S</footer>
+    <script src="main.js"></script>
+  </body>
+</html>
