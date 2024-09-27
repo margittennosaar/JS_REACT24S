@@ -1,6 +1,5 @@
 /* 
 Create functionality where an input field's value is continuously displayed and updated in a dedicated area on the page as the user types, using the onchange event.*/
-
 /* 
 
 Instructions:

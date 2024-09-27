@@ -5,7 +5,7 @@ function averageNumbers() {
     let count = 0;
 
     while (true) {
-        let input = +prompt('Enter a number');
+        input = +prompt('Enter a number');
         sum += input;
         count++;
         let shouldContinue = prompt('Do you want to continue? (y/n)');
@@ -14,6 +14,7 @@ function averageNumbers() {
             break;
         }
     }
+
     let average = sum / count
     console.log('average is: ', average)
 }

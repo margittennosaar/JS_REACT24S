@@ -2,11 +2,12 @@
 // Complete the function convertStringToNumber such that it converts the string it receives into a number.
 
 function convertNumberToString(number) {
-
+    return number.toString();
 }
 
 function convertStringToNumber(string) {
-
+    /*     return parseInt(string) */
+    return +string
 }
 
 // Sample usage - do not modify

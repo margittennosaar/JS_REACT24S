@@ -5,3 +5,4 @@
 
 // Sample usage - do not modify
 console.log(fahrenheitToCelsius(21)); // "-6,1"
+console.log(fahrenheitToCelsius(100)); // "-6,1"
