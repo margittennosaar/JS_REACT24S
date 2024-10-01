@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overscroll-behavior: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(125, 249, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header, main, footer {
+    padding:2rem;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    height: 100px;
+    position: sticky;
+    background-color: aliceblue;
+    align-items: center;
+    top:0;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+section{
+    height:45vh;
+    scroll-margin-top: 150px;
+}
+
+button {
+    border:none;
+    border-radius: 5px;
+    box-shadow:none;
+    padding:1rem 2rem;
+    font-family: inherit;
+    background-color: orange;
+    font-size: inherit;
+}
+
+#backTop {
+    position: fixed;
+    right:2rem;
+    bottom:2rem;
+}
