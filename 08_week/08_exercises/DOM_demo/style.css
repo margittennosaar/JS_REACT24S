@@ -4,50 +4,73 @@
   box-sizing: border-box;
   overscroll-behavior: none;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background-color: rgb(125, 249, 255);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #333;
 }
 
-header, main, footer {
-    padding:2rem;
+p {
+  line-height: 1.4;
+}
+
+header,
+section,
+footer {
+  padding: 2rem;
 }
 
 header {
-    display:flex;
-    justify-content: space-between;
-    height: 100px;
-    position: sticky;
-    background-color: aliceblue;
-    align-items: center;
-    top:0;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
 }
 
-nav ul li{
-    display: inline-block;
+nav ul li {
+  display: inline-block;
 }
 
-section{
-    height:45vh;
-    scroll-margin-top: 150px;
+section {
+  height: 45vh;
+  scroll-margin-top: 150px;
+}
+
+section:first-child {
+  background: url(assets/birger-strahl-C3seKkH3Edg-unsplash.jpg) no-repeat fixed
+    center center/cover;
+  height: 80vh;
+  padding-top: 100px;
+}
+
+section:nth-child(2) {
+  background-color: rgb(36, 94, 96);
+  color: lightgoldenrodyellow;
+}
+
+section:last-child {
+  background-color: rgb(8, 59, 61);
+  color: aliceblue;
 }
 
 button {
-    border:none;
-    border-radius: 5px;
-    box-shadow:none;
-    padding:1rem 2rem;
-    font-family: inherit;
-    background-color: orange;
-    font-size: inherit;
+  border: none;
+  border-radius: 5px;
+  box-shadow: none;
+  padding: 1rem 2rem;
+  font-family: inherit;
+  background-color: orange;
+  font-size: inherit;
 }
 
 #backTop {
-    position: fixed;
-    right:2rem;
-    bottom:2rem;
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
 }
