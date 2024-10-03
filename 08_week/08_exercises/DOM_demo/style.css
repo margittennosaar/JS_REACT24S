@@ -23,6 +23,10 @@ footer {
   padding: 2rem;
 }
 
+.mobile {
+  display: none;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -69,8 +73,67 @@ button {
   font-size: inherit;
 }
 
+.overlay{
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay.visible{
+    display: flex;
+}
+
+.modal {
+  background-color: bisque;
+  color: #333;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #333;
+  padding: 2rem;
+  width: 80vw;
+  position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
 #backTop {
   position: fixed;
   right: 2rem;
   bottom: 2rem;
+}
+
+@media (max-width: 800px) {
+  .mobile {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav ul.responsive {
+    display: block;
+    background-color: aliceblue;
+    color: #333;
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+  ul.responsive li {
+    display: block;
+    margin: 2rem;
+  }
+
+  header {
+    background-color: aliceblue;
+  }
 }
